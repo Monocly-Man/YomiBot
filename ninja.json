@@ -1,0 +1,352 @@
+[
+	{
+    "Move": "Dash",
+	"Startup": "-",
+	"IASA": "8-15",
+	"Active": "-",
+	"Damage": "-",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "-"
+  },
+	{
+    "Move": "Air Dash",
+	"Startup": "-",
+	"IASA": "8-15",
+	"Active": "-",
+	"Damage": "-",
+	"Resource": "Air option",
+	"Proration": "-",
+	"Notes": "Back Air Dash has +4 startup and IASA"
+  },
+	{
+    "Move": "Punch",
+	"Startup": "4",
+	"IASA": "15",
+	"Active": "2",
+	"Damage": "30",
+	"Resource": "-",
+	"Proration": "2",
+	"Notes": "-"
+  },
+  	{
+    "Move": "Air Punch",
+	"Startup": "5",
+	"IASA": "22",
+	"Active": "2",
+	"Damage": "40",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "-"
+  },
+	{
+    "Move": "Kick",
+	"Startup": "5",
+	"IASA": "19",
+	"Active": "3",
+	"Damage": "70",
+	"Resource": "-",
+	"Proration": "1",
+	"Notes": "Low"
+  },
+	{
+    "Move": "Air Kick",
+	"Startup": "5",
+	"IASA": "40",
+	"Active": "7",
+	"Damage": "70",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "inf hitstun in air"
+  },
+	{
+    "Move": "Sweep",
+	"Startup": "7",
+	"IASA": "29",
+	"Active": "2",
+	"Damage": "120",
+	"Resource": "-",
+	"Proration": "-1",
+	"Notes": "Low, inf hitstun, useable in NC"
+  },
+	{
+    "Move": "NunChuk",
+	"Startup": "7",
+	"IASA": "19",
+	"Active": "3",
+	"Damage": "80",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Enters NunChuk stance (NC), stance can be exited with non-chuk move"
+  },
+  	{
+    "Move": "NunChuk High",
+	"Startup": "6",
+	"IASA": "18",
+	"Active": "2",
+	"Damage": "70",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Cannot hit grounded opponents, enters NunChuk stance (NC), stance can be exited with non-chuk move"
+  },
+	{
+    "Move": "Chuk heavy",
+	"Startup": "9,2,2",
+	"IASA": "22",
+	"Active": "2,2,2",
+	"Damage": "60,60,60",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "NC only"
+  },
+	{
+    "Move": "Chuk Jump",
+	"Startup": "16",
+	"IASA": "32",
+	"Active": "4",
+	"Damage": "120",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "NC only, can only be followed with Grab, Chuk Spin, Store/Release Momentum, Instant/Burst Cancel."
+  },
+	{
+    "Move": "Chuk Spin",
+	"Startup": "6,?,?",
+	"IASA": "40",
+	"Active": "4,4,3",
+	"Damage": "70",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Air only"
+  },
+	{
+    "Move": "Drop Kick",
+	"Startup": "11",
+	"IASA": "22",
+	"Active": "5",
+	"Damage": "105",
+	"Resource": "-",
+	"Proration": "0",
+	"Notes": "Airborne frame 1"
+  },
+	{
+    "Move": "Dive Kick",
+	"Startup": "12",
+	"IASA": "4 after landing",
+	"Active": "Until landing",
+	"Damage": "600",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "6f startup with initiative, air only, 3 aim angles"
+  },
+	{
+    "Move": "Stomp",
+	"Startup": "11",
+	"IASA": "23",
+	"Active": "4",
+	"Damage": "70",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Low, hits OTG"
+  },
+	{
+    "Move": "Shuriken",
+	"Startup": "6",
+	"IASA": "16",
+	"Active": "-",
+	"Damage": "40",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Projectile travels horizontally"
+  },
+	{
+    "Move": "Air Shuriken",
+	"Startup": "6",
+	"IASA": "11",
+	"Active": "-",
+	"Damage": "30",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Projectile travels 45 degrees down"
+  },
+	{
+    "Move": "Uppercut",
+	"Startup": "4,2",
+	"IASA": "? after landing",
+	"Active": "2,4",
+	"Damage": "120,60",
+	"Resource": "-",
+	"Proration": "2",
+	"Notes": "Invuln during startup with initiative, SWAY ok"
+  },
+	{
+    "Move": "Air Uppercut",
+	"Startup": "6",
+	"IASA": "? after landing",
+	"Active": "5",
+	"Damage": "150",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Air only"
+  },
+	{
+    "Move": "Jump Kick",
+	"Startup": "11",
+	"IASA": "15 after landing",
+	"Active": "8",
+	"Damage": "120",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Air OK"
+  },
+	{
+    "Move": "Sticky Bomb",
+	"Startup": "10(16 on whiff)",
+	"IASA": "16(4 after landing on whiff)",
+	"Active": "4",
+	"Damage": "40",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Air OK"
+  },
+	{
+    "Move": "Detonate",
+	"Startup": "2",
+	"IASA": "-",
+	"Active": "2",
+	"Damage": "80(100)",
+	"Resource": "Active bomb",
+	"Proration": "3(0)",
+	"Notes": "Automatic detonation shown in brackets, Air OK"
+  },
+	{
+    "Move": "Summon (Kunai)",
+	"Startup": "5,24",
+	"IASA": "11",
+	"Active": "-",
+	"Damage": "70x3",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Air OK, 3 aim angles"
+  },
+	{
+    "Move": "Summon (Slide)",
+	"Startup": "4,on landing",
+	"IASA": "11",
+	"Active": "30",
+	"Damage": "0",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Low, Air OK"
+  },
+	{
+    "Move": "Store Momentum",
+	"Startup": "1",
+	"IASA": "11",
+	"Active": "-",
+	"Damage": "-",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Stops all momentum and saves it, Air OK"
+  },
+	{
+    "Move": "Release Momentum",
+	"Startup": "1",
+	"IASA": "5",
+	"Active": "-",
+	"Damage": "-",
+	"Resource": "1 meter, stored momentum",
+	"Proration": "-",
+	"Notes": "Can use flip to flip momentum direction, Air OK "
+  },
+	{
+    "Move": "Substitution",
+	"Startup": "6",
+	"IASA": "8",
+	"Active": "-",
+	"Damage": "-",
+	"Resource": "Projectile",
+	"Proration": "-",
+	"Notes": "Swaps places with most recently generated projectile within range, Air OK"
+  },
+  	{
+    "Move": "Whip Wave",
+	"Startup": "11,2",
+	"IASA": "19",
+	"Active": "2",
+	"Damage": "800,400",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "NC only, Low, enters NunChuk stance"
+  },
+  	{
+    "Move": "Backsway",
+	"Startup": "-",
+	"IASA": "13",
+	"Active": "-",
+	"Damage": "-",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "9f invuln on initiative, enters SWAY stance"
+  },
+  	{
+    "Move": "Palm Strike",
+	"Startup": "5",
+	"IASA": "30",
+	"Active": "5",
+	"Damage": "200",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "SWAY only"
+  },
+  	{
+    "Move": "Slide Kick",
+	"Startup": "5",
+	"IASA": "30",
+	"Active": "10",
+	"Damage": "70",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Low, SWAY only, low profiles on frame 3"
+  },
+  	{
+    "Move": "Skull Shaker",
+	"Startup": "8",
+	"IASA": "28",
+	"Active": "2",
+	"Damage": "60",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Always restands, hitgrab"
+  },
+  	{
+    "Move": "Quick Slash",
+	"Startup": "7",
+	"IASA": "21",
+	"Active": "1",
+	"Damage": "40",
+	"Resource": "1 meter",
+	"Proration": "1",
+	"Notes": "Invuln on frame 5-6 with initiative, Air OK"
+  },
+  	{
+    "Move": "Caltrops",
+	"Startup": "6",
+	"IASA": "21",
+	"Active": "-",
+	"Damage": "50x3",
+	"Resource": "3 meter",
+	"Proration": "-",
+	"Notes": "High in air, Low on ground, Unparriable on ground"
+  },
+  	{
+    "Move": "Hustle",
+	"Startup": "13",
+	"IASA": "45",
+	"Active": "-",
+	"Damage": "-",
+	"Resource": "Builds 1 meter on frame 45",
+	"Proration": "-",
+	"Notes": "Enters NC stance, NC OK"
+  }
+]

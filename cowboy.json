@@ -1,0 +1,302 @@
+[
+	{
+    "Move": "Walk",
+	"Startup": "?",
+	"IASA": "?",
+	"Active": "-",
+	"Damage": "-",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "-"
+	},
+	{
+    "Move": "Teleport",
+	"Startup": "5-19",
+	"IASA": "10-30",
+	"Active": "-",
+	"Damage": "-",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Startup and recovery increase with distance, useable in QD"
+  },
+	{
+    "Move": "Instant Teleport",
+	"Startup": "5",
+	"IASA": "8",
+	"Active": "-",
+	"Damage": "-",
+	"Resource": "1 meter",
+	"Proration": "-",
+	"Notes": "Air OK"
+  },
+	{
+    "Move": "Dash",
+	"Startup": "-",
+	"IASA": "8",
+	"Active": "-",
+	"Damage": "-",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Invuln 1-4 initiative"
+  },
+	{
+    "Move": "Air Dash",
+	"Startup": "-",
+	"IASA": "8",
+	"Active": "-",
+	"Damage": "-",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "-"
+  },
+	{
+    "Move": "Pommel",
+	"Startup": "4",
+	"IASA": "14",
+	"Active": "2",
+	"Damage": "40",
+	"Resource": "-",
+	"Proration": "1",
+	"Notes": "Very good at restanding during combos"
+  },
+	{
+    "Move": "Horizontal Slash",
+	"Startup": "6",
+	"IASA": "16",
+	"Active": "2",
+	"Damage": "100",
+	"Resource": "-",
+	"Proration": "1",
+	"Notes": "-"
+  },
+	{
+    "Move": "Air Horizontal Slash",
+	"Startup": "5",
+	"IASA": "19",
+	"Active": "4",
+	"Damage": "90",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Gives upwards and forwards momentum"
+  },
+	{
+    "Move": "Vertical Slash",
+	"Startup": "11",
+	"IASA": "17",
+	"Active": "2",
+	"Damage": "115",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "9f startup with initiative"
+  },
+	{
+    "Move": "Air Vertical Slash",
+	"Startup": "5",
+	"IASA": "18",
+	"Active": "2",
+	"Damage": "70",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "-"
+  },
+	{
+    "Move": "Upwards Slash",
+	"Startup": "8",
+	"IASA": "23",
+	"Active": "4",
+	"Damage": "70",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Launches"
+  },
+	{
+    "Move": "Air Upwards Slash",
+	"Startup": "8",
+	"IASA": "23",
+	"Active": "4",
+	"Damage": "70",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Provides significant upwards momentum once in neutral, unlimited in combos."
+  },
+	{
+    "Move": "Downwards Cleave",
+	"Startup": "9",
+	"IASA": "4 after landing",
+	"Active": "Until landing",
+	"Damage": "70",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Air only"
+  },
+	{
+    "Move": "Lightning Slice",
+	"Startup": "9,6",
+	"IASA": "17,17",
+	"Active": "1",
+	"Damage": "110,60",
+	"Resource": "-",
+	"Proration": "3",
+	"Notes": "Followups cannot be aimed"
+  },
+	{
+    "Move": "Air Lightning Slice",
+	"Startup": "9,6",
+	"IASA": "17,17",
+	"Active": "1",
+	"Damage": "110,60",
+	"Resource": "-",
+	"Proration": "3",
+	"Notes": "Followups cannot be aimed. Stops vertical momentum once."
+  },
+	{
+    "Move": "3 Combo Up",
+	"Startup": "8,13,25",
+	"IASA": "38",
+	"Active": "2,2,3",
+	"Damage": "40,50,160",
+	"Resource": "Air option",
+	"Proration": "-",
+	"Notes": "Air OK"
+  },
+	{
+    "Move": "3 Combo Down",
+	"Startup": "8,13,25",
+	"IASA": "38",
+	"Active": "2,2,3",
+	"Damage": "40,50,160",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Air only"
+  },
+	{
+    "Move": "Ankle Cutter",
+	"Startup": "7",
+	"IASA": "23",
+	"Active": "2",
+	"Damage": "70",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Low"
+  },
+	{
+    "Move": "Stinger",
+	"Startup": "11",
+	"IASA": "21",
+	"Active": "2",
+	"Damage": "120",
+	"Resource": "-",
+	"Proration": "-1",
+	"Notes": "inf hitstun"
+  },
+	{
+    "Move": "Backslash",
+	"Startup": "5,7,9",
+	"IASA": "35",
+	"Active": "2,3,1",
+	"Damage": "50,60,160",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Has sweetspot at tip"
+  },
+	{
+    "Move": "Impale",
+	"Startup": "7-???",
+	"IASA": "41",
+	"Active": "4",
+	"Damage": "50,145",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Teleports to opponent, hitgrab"
+  },
+	{
+    "Move": "Lasso",
+	"Startup": "9",
+	"IASA": "22",
+	"Active": "Until cancelled",
+	"Damage": "-",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Air OK, enters Lasso stance"
+  },
+	{
+    "Move": "Pull",
+	"Startup": "-",
+	"IASA": "9",
+	"Active": "1",
+	"Damage": "40",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Air OK, Lasso only"
+  },
+	{
+    "Move": "Izuna Drop",
+	"Startup": "-",
+	"IASA": "42 after hit",
+	"Active": "-",
+	"Damage": "190",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Air OK, Lasso only"
+  },
+	{
+    "Move": "Gun Throw",
+	"Startup": "9",
+	"IASA": "19",
+	"Active": "Until landing",
+	"Damage": "800",
+	"Resource": "Gun",
+	"Proration": "-",
+	"Notes": "Fires a bullet if it hits, 3 aim angles, Air OK, QD OK"
+  },
+	{
+    "Move": "Quickdraw",
+	"Startup": "9",
+	"IASA": "-",
+	"Active": "-",
+	"Damage": "-",
+	"Resource": "-",
+	"Proration": "-",
+	"Notes": "Enters Quickdraw stance (QD), Air OK"
+  },
+	{
+    "Move": "Shoot",
+	"Startup": "5(14),6",
+	"IASA": "-",
+	"Active": "2",
+	"Damage": "90-60 (150)",
+	"Resource": "Bullet",
+	"Proration": "-",
+	"Notes": "HKD, QD only"
+  },
+	{
+    "Move": "Temporal Round",
+	"Startup": "5(14),32",
+	"IASA": "10",
+	"Active": "-",
+	"Damage": "90-36",
+	"Resource": "1 meter",
+	"Proration": "-",
+	"Notes": "QD only (or immediately after Shoot)"
+  },
+	{
+    "Move": "1000 Cuts",
+	"Startup": "5,7",
+	"IASA": "12",
+	"Active": "2",
+	"Damage": "50",
+	"Resource": "3 meter",
+	"Proration": "-",
+	"Notes": "Kills projectiles on contact, removed on hit, Air OK, QD OK"
+  }
+  	{
+    "Move": "Hustle",
+	"Startup": "21?",
+	"IASA": "61",
+	"Active": "1",
+	"Damage": "20",
+	"Resource": "Gives 1 meter if completed",
+	"Proration": "-",
+	"Notes": "QD OK"
+  },
+]
