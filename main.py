@@ -1,6 +1,6 @@
 # Your Only Move Is HUSTLE Bot (yomibot), by Monocly Man
 # Created 14th of January 2023 in python version 3.10.something
-# Last edited 14th January 2023
+# Last edited 18th January 2023
 
 # Largely based off a previous project called bolbobot
 # Basically same bot but a different game
@@ -13,10 +13,9 @@ from discord.ext import commands
 import alias
 
 # Variables
-__version__ = str("0.3.2, images coming later")
+__version__ = str("0.4.2, cowboy images not done yet")
 __gamever__ = str("0.10.12, ninja and cowboy only")
 dirname = os.path.dirname(__file__)
-imglink = str("https://wiki.gbl.gg/images/f/fa/YH_Cowboy_HSlash.png")
 
 
 # Functions
@@ -24,18 +23,22 @@ def get_move(move_name, character):
     filepath = dirname + "/" + character + ".json"
     if not filepath:
         return discord.Embed(title="Move not found in {}'s movelist".format(character), colour=0x1f3c80)
+        # Change this error to a "character's movelist not found"
+
     with open(filepath) as movelist_file:
         contents = movelist_file.read()
     movelist_json = json.loads(contents)
 
-    move_details = list(filter(lambda x: (x['Move'].lower() == move_name), movelist_json))
+    move = list(filter(lambda x: (x['Move'].lower() == move_name), movelist_json))[0]
 
-    return move_details[0]
-
-
-def move_embed(move):
     embed = discord.Embed(title=move['Move'], colour=0x1f3c80)
-    embed.set_thumbnail(url=imglink)
+    if character == "ninja":
+        move_name = move_name.replace(" ", "")
+        file = discord.File(dirname + "/images/" + character + "/" + move_name + ".png", filename="image.png")
+        embed.set_thumbnail(url="attachment://image.png")
+    else:
+        file = discord.File(dirname + "/images/placeholder.png", filename="image.png")
+        embed.set_thumbnail(url="attachment://image.png")
 
     # Shut the fuck up I know it's ugly i cbf to make it nicer
     embed.add_field(name='Start Up \u200B', value=move['Startup'], )
@@ -46,7 +49,7 @@ def move_embed(move):
     embed.add_field(name='Proration', value=move['Proration'])
     embed.add_field(name='Notes', value=move['Notes'])
 
-    return embed
+    return embed, file
 
 
 # Main
@@ -91,7 +94,9 @@ async def on_message(ctx):
             move = move_alias[0]["name"]
             # I know using try except is lazy and bad but i am lazy and bad
             try:
-                response = move_embed(get_move(move, character))
+                response, image_file = get_move(move, character)
+                await ctx.channel.send(file=image_file, embed=response)
+                return
             except IndexError:
                 response = discord.Embed(title="Move found but no data found", colour=0x1f3c80)
 
