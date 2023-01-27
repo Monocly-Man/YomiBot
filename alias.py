@@ -2,17 +2,14 @@ CHARACTER_NAMES = [
     {
         "name": "cowboy",
         "alias": ["cowboy", "c", "cow", "yeehaw"],
-        "json": "/cowboy.json"
     },
     {
         "name": "ninja",
         "alias": ["ninja", "n", "nin", "weeb"],
-        "json": "/ninja.json"
     },
     {
         "name": "wizard",
         "alias": ["wizard", "w", "wiz", "nerd"],
-        "json": "/wizard.json"
     }
 ]
 
@@ -87,7 +84,7 @@ MOVE_NAMES = [
     },
     {
         "name": "backslash",
-        "alias": ["backslash", "bslash", "b slash", "backlash"]
+        "alias": ["backslash", "back slash", "bslash", "b slash", "backlash"]
     },
     {
         "name": "impale",
@@ -103,7 +100,7 @@ MOVE_NAMES = [
     },
     {
         "name": "izuna drop",
-        "alias": ["izuna drop", "izuna", "from the top rope"]
+        "alias": ["izuna drop", "izuna", "from the top rope", "drop"]
     },
     {
         "name": "gun throw",
@@ -111,7 +108,7 @@ MOVE_NAMES = [
     },
     {
         "name": "quickdraw",
-        "alias": ["quickdraw", "qd", "high noon"]
+        "alias": ["quickdraw", "qd", "high noon", "12 o'clock"]
     },
     {
         "name": "shoot",
@@ -119,11 +116,11 @@ MOVE_NAMES = [
     },
     {
         "name": "temporal round",
-        "alias": ["temporal round", "temporal bullet", "temporal shot", "temp round", "temp shot", "temp bullet"]
+        "alias": ["temporal round", "temporal bullet", "temporal shot", "temp round", "temp shot", "temp bullet", "temporal", "temp"]
     },
     {
         "name": "1000 cuts",
-        "alias": ["1000 cuts", "1k cuts", "1k"]
+        "alias": ["1000 cuts", "1k cuts", "1k", "1000"]
     },
     {
         "name": "hustle",
@@ -195,7 +192,7 @@ MOVE_NAMES = [
     },
     {
         "name": "jump kick",
-        "alias": ["jump kick"]
+        "alias": ["jump kick", "jk"]
     },
     {
         "name": "sticky bomb",
@@ -203,15 +200,15 @@ MOVE_NAMES = [
     },
     {
         "name": "detonate",
-        "alias": ["detonate"]
+        "alias": ["detonate", "boom"]
     },
     {
         "name": "summon (kunai)",
-        "alias": ["summon (kunai)", "summon", "kunai", "summon kunai", "kunai summon"]
+        "alias": ["summon (kunai)", "summon", "kunai", "summon kunai", "kunai summon", "summon k"]
     },
     {
         "name": "summon (slide)",
-        "alias": ["summon (slide)", "slide", "summon slide", "slide summon"]
+        "alias": ["summon (slide)", "slide", "summon slide", "slide summon", "summon s"]
     },
     {
         "name": "store momentum",
@@ -235,7 +232,7 @@ MOVE_NAMES = [
     },
     {
         "name": "skull shaker",
-        "alias": ["skull shaker", "skull shaker", "skull"]
+        "alias": ["skull shaker", "skullshaker", "skull"]
     },
     {
         "name": "quick slash",
